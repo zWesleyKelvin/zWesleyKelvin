@@ -1,0 +1,309 @@
+﻿html{
+overflow-x:hidden;
+background: whitesmoke;
+}
+
+html, body {
+  width:  100%;
+  height: 100%;
+}
+
+.container {
+width: 1423px;
+
+}
+header{
+    background-color: rgb(15,15,15);  
+}
+
+.menu-meio figure{
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+.menu-meio a:visited{
+	color: white; 
+}
+
+.menu-meio a:hover {
+	text-decoration: underline; 
+	color: #f00
+	}
+
+.menu-meio a:active {
+	color: white;
+	}
+
+.busca{
+    background-color: #F8F8FF;
+    margin-left: 450px;
+    margin-top: -60px;
+    border-radius: 5px;
+}
+
+.busca form{
+    margin: 2px;  
+}
+.busca input {
+    vertical-align:middle;
+    border-radius: 5px;
+    padding-left: 9px;
+}
+.busca input[type=search] {
+    width: 500px;
+    height: 35px;
+	font-size: 18px;
+}
+.busca{
+    float: left;
+	width: 550px;
+}
+
+/*INICIO DA CONFIGURAÇÃO DO TOPO PRETO*/
+.clearfix:after{
+    content: '.';
+    display: block;
+    clear: both;
+    height: 3px;
+    visibility: hidden;
+    overflow: hidden;
+}	
+
+/*FIM DA CONFIGURAÇÃO DO TOPO PRETO*/
+
+
+/*INÍCIO DO MENU DE NAVEGAÇÃO*/
+.central{
+	position: relative;
+	top:-10px;
+}
+.central-aten{
+	float: right;
+    margin-top: -50px;
+    margin-right: 130px;
+}
+/* Escondendo submenu */
+.central li  ul{
+	position:absolute;
+	background-color:black;
+	display:none;
+	
+} 
+/* Exibindo submenu */
+.central li:hover ul {
+	display:block;
+	}
+	
+.central li ul li{
+	display:block;
+	color: white; 
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+
+.sub-central li{
+	
+	text-decoration: none;
+	text-align: justify;
+	padding: 10px 10px;
+	background-color:rgb(15,15,15);
+	z-index:100;
+	position: relative;
+	top: 10px;
+}
+.sub-central img{
+	position: relative;
+	top: 10px;
+}
+
+
+
+
+
+.paginas{
+    margin-top: 10px;
+    margin-right: -60px;
+    margin-left: 185px;
+	cursor: pointer;
+}
+
+#menu{
+    border-color: gainsboro;
+    margin-top: 30px;
+}
+
+nav{
+    background-color:gainsboro;
+    height: 50px;
+    display: block;
+	clear:both;   
+}
+ 
+
+.menu li{
+	display:inline-block;
+	position: relative;
+    padding-top: 2px;
+}
+
+/*Estilizando links do menu*/
+.menu li a{
+	color:#333; 
+	text-decoration:none;	
+	display:block;
+	font-size:25px;
+	margin: 0px;
+}
+ 
+.menu li:hover  {
+	background:#BEBEBE;
+	border-radius: 3px;
+}
+
+/*FIM DA CONFIGURAÇÃO DO MENU*/
+
+
+/*INÍCIO ÁREA REDE SOCIAL DO RODAPÉ*/
+footer{
+   background: #000000;    
+   height: 190px;
+   background-color: rgb(15,15,15);
+
+}
+
+
+footer .container{
+	text-align: center;
+    position: relative;
+    height: 112px;
+}
+
+ 
+.container h2{
+    display:inline-block;
+	position: relative;
+	top: 30px;
+	font-size: 30px;
+	color: white;
+}
+
+.r_social h3{
+	position: absolute;
+	top: 85px;
+	width:50px;
+	height:50px;
+	background: #BEBEBE;
+	border-radius: 50px;
+}
+
+.r_sociais1{
+    left: 575px;
+}
+.r_sociais1 img{
+	position: relative;
+	top:0px;
+	left:0px;
+}
+.r_sociais1:hover  {
+	background: #c4302b;
+	border-radius: 100px;
+}
+
+.r_sociais2{
+    left: 650px;
+}
+.r_sociais2 img{
+	position: relative;
+	top:6px;
+	left:0px;
+}
+.r_sociais2:hover  {
+	background: #00acee;
+	border-radius: 100px;
+}
+
+.r_sociais3{
+    left: 725px;
+}
+.r_sociais3 img{
+	position: absolute;
+	top:7px;
+	left:15px;
+}
+.r_sociais3:hover  {
+	background: #3b5998;
+	border-radius: 100px;
+}
+
+.r_sociais4{
+    left: 800px;
+}
+.r_sociais4 img{
+	position: relative;
+	top:7px;
+	left:0px;
+}
+.r_sociais4:hover  {
+	background:radial-gradient(circle at 33% 100%,#fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+	border-radius: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
