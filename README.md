@@ -21,20 +21,14 @@
 
 ```txt
 👨‍💻 Software Developer
-📍 Rio de Janeiro - RJ, Brazil
-🚀 Passionate about clean code & creative solutions
+📍 Rio de Janeiro - RJ, Brasil
 
-<!--
-**zWesleyKelvin/zWesleyKelvin** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- 🔭 Atualmente estou trabalhando em projetos pessoais para evoluir minhas habilidades
+- 🌱 Atualmente estou aprendendo fundamentos de desenvolvimento de software
+- 👯 Procuro colaborar em projetos open-source e projetos para iniciantes
+- 🤔 Busco ajuda para evoluir em programação e aprender novas tecnologias
+- 💬 Pergunte-me sobre o que estou estudando no momento
+- 📫 Como me encontrar: LinkedIn ou GitHub
+- 😄 Pronomes: ele/dele
+- ⚡ Curiosidade: gosto de aprender criando pequenos projetos
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
